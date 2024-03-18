@@ -39,3 +39,44 @@ The PayPal Developer community helps you build your career, while also improving
 - Website: [developer.paypal.com](https://developer.paypal.com)
 - Twitter: [@paypaldev](https://twitter.com/paypaldev)
 - Github: [@paypal](https://github.com/paypal)
+
+# REPOSITORIO GITHUB PROCESS
+
+…or create a new repository on the command line
+
+echo "# javierdiazonik" >> README.md
+git init
+git add . // subir todos los archivos de mi pc
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/javierdg999/javierdiazonik.git
+git push -u origin main
+
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/javierdg999/javierdiazonik.git
+git branch -M main
+git push -u origin main
+
+
+CLONAR UN REPOSITORIO DE GITHUB A MI PC
+
+CMD O GITBASH:
+>> CD MIS PROYECTOS >> git clone http//url…..git
+>> npm install
+>> npm run start
+
+
+
+PROCESOS GIT EN VS CODE O CMD/GITBASH
+# startupmy
+
+# paso 1 git init
+# paso 2 git remote add origin https://github.com/javierdg999/javierdiazonik.git
+# paso 3 git status // verifica si esta trackeado en rojo
+# paso 4 git add . // trackea lo que no esta siendo rastreado
+# paso 5 git status // debe salir trackeado en verde 
+# paso 6 git commit -m "modifique info" // agregar files y descripcion
+# paso 7 git status // para verificar los camibos ok
+# paso 8 git push // subir los cambios a github y corrobor
+
